@@ -4,6 +4,7 @@
 import Container from '@/components/ui/container';
 import useCart from '@/hooks/use-cart';
 import CartItem from './components/cart-item';
+import Summary from './components/summary';
 
 
 export const revalidate = 0;
@@ -27,6 +28,7 @@ const CartPage = () => {
                 ))}
               </ul>
             </div>
+            <Summary/>
           </div>
         </div>
       </Container>
