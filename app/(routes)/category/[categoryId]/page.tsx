@@ -42,7 +42,7 @@ interface CategoryPageProps {
       <div className="bg-white">
       <Container>
         <Billboard 
-          data={category.billboard}
+          data={category?.billboard}
         />
        
        <div className="px-4 sm:px-6 lg:px-8 pb-24">
