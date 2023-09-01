@@ -6,6 +6,7 @@ import Currency  from "@/components/ui/currency";
 import Button from "@/components/ui/button";
 import { Product } from "@/types";
 
+import useCart from "@/hooks/use-cart"; 
 
 interface InfoProps {
   data: Product
@@ -13,7 +14,11 @@ interface InfoProps {
 
 const Info: React.FC<InfoProps> = ({ data }) => {
 
+  const cart = useCart()
 
+  const onAddToCart = () => {
+    cart.addItem(data); // Add the 'data' (product) to the cart using the 'addItem' method provided by the 'cart' object
+  };
 
   return ( 
     <div>
@@ -37,7 +42,7 @@ const Info: React.FC<InfoProps> = ({ data }) => {
         </div>
       </div>
       <div className="mt-10 flex items-center gap-x-3">
-        <Button className="flex items-center gap-x-2">
+        <Button className="flex items-center gap-x-2" onClick={onAddToCart}>
           Add To Cart
           <ShoppingCart size={20} />
         </Button>
