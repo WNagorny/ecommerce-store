@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-commerce Store
 
+**[Live Demo](https://ecommerce-store-nu-one.vercel.app/)**
+
+The "E-commerce Store" project is a fully responsive online store that offers many features to enable convenient online shopping. It serves as a natural extension of the "E-commerce Admin Panel" project, creating a fully functional e-commerce ecosystem. It provides customers and store managers with excellent tools for efficient management and online shopping.
+
+## Key Features and Project Achievements
+
+- **Switching Between Categories**: Users can easily browse available product categories and select products of interest.
+- **Adding and Removing Products to the Cart**: The store allows customers to add products to their shopping cart and remove them later.
+- **Viewing Product Images**: Customers can conveniently view available product images to assist them in making precise choices.
+- **Payment for Purchases**: The store supports online payments, allowing customers to make secure transactions.
+- **Related Products**: Users can explore products related to the ones they are currently viewing, potentially increasing the number of purchases.
+
+## Technologies Used
+
+- **Next.js 13**: A powerful React framework for building efficient and scalable web applications.
+- **App Router**: Enables smooth navigation within the application.
+- **React**: A popular JavaScript library for building user interfaces.
+- **Tailwind CSS**: The preferred CSS framework for rapid UI design.
+- **Prisma**: A modern database tool for Node.js and TypeScript.
+
+  
 ## Getting Started
 
-First, run the development server:
+Follow these steps to set up the project and start using the admin panel:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Clone this repository to your local machine.
+git clone https://github.com/WNagorny/ecommerce-store.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install the required dependencies. npm install or yarn install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Run the project. npm start or yarn start
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
+Learn More
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js Documentation - learn about Next.js features and API.
+Learn Next.js - an interactive Next.js tutorial.
+You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Deploy on Vercel
+The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out our Next.js deployment documentation for more details.
